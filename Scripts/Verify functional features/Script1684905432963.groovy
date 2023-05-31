@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.comment('Open mobile application')
 
-Mobile.startApplication('C:\\Users\\adizon\\Documents\\Projects\\AEON\\ACSP\\rgtc-acsp-mobile-android\\mobile\\app\\build\\outputs\\apk\\debug\\app-debug.apk', 
+Mobile.startApplication('C:\\Users\\jgallego\\Documents\\aeon_418.apk', 
     false)
 
 Mobile.comment('Wait until login screen is opened')
