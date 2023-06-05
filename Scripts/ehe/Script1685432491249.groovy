@@ -24,27 +24,34 @@ import org.apache.commons.lang.time.StopWatch as StopWatch
 
 StopWatch stopwatch = new StopWatch()
 
-Mobile.startApplication('C:\\Users\\jgallego\\Documents\\419.apk', false)
+Mobile.startApplication('C:\\Users\\jgallego\\Documents\\APK\\419.apk', false)
 
 Mobile.tap(findTestObject('Object Repository/Ochin/android.widget.Button - Login Via PIN'), 0)
 
 Mobile.setText(findTestObject('Object Repository/Ochin/android.widget.EditText'), '111111', 0)
 
 Mobile.comment('LOGIN USER')
-
+stopwatch.start()
 Mobile.verifyElementExist(findTestObject('Ochin/android.widget.ImageView'), 0)
-
+stopwatch.stop()
+long login_user = stopwatch.getTime() / 1000
 Mobile.comment('DASHBOARD')
 
+stopwatch.reset()
+stopwatch.start()
 Mobile.verifyElementExist(findTestObject('Object Repository/Ochin/android.widget.TextView - Remaining Active Balance'), 
     0)
+stopwatch.stop()
+long dashboard = stopwatch.getTime() / 1000
 
 Mobile.tap(findTestObject('Ochin/android.widget.TextView - My Account'), 1)
 
 Mobile.comment('MY ACCOUNT')
-
+stopwatch.reset()
+stopwatch.start()
 Mobile.verifyElementExist(findTestObject('Ochin/android.widget.TextView - Personal Information'), 0)
-
+stopwatch.stop()
+long my_account = stopwatch.getTime() / 1000
 Mobile.pressBack()
 
 Mobile.verifyElementExist(findTestObject('Ochin/android.widget.TextView - Remaining Active Balance'), 0)
@@ -54,9 +61,11 @@ Mobile.tap(findTestObject('Ochin/android.widget.LinearLayout - Installment Loan 
 Mobile.tap(findTestObject('Ochin/android.widget.ImageButton - Regular Application'), 0)
 
 Mobile.comment('LOAN APPLICATION')
-
+stopwatch.reset()
+stopwatch.start()
 Mobile.verifyElementExist(findTestObject('Ochin/android.widget.TextView - Personal Information Loan'), 50)
-
+stopwatch.stop()
+long loan_application = stopwatch.getTime()/ 1000
 Mobile.pressBack()
 
 Mobile.tap(findTestObject('Ochin/android.widget.Button - YES - Back from loan'), 0)
@@ -96,3 +105,34 @@ Mobile.tap(findTestObject('Ochin/android.widget.LinearLayout - AEON Code Button'
 Mobile.verifyElementExist(findTestObject('Ochin/Enter Code'), 0)
 
 Mobile.pressBack()
+
+Mobile.comment('STORE LOCATOR')
+
+Mobile.tap(findTestObject('Ochin/android.widget.LinearLayout - Store Locator Button'), 0)
+
+Mobile.verifyElementExist(findTestObject('Ochin/android.view.View - Store Locator Browser'), 0)
+
+Mobile.pressBack()
+
+Mobile.verifyElementExist(findTestObject('Ochin/android.widget.TextView - Remaining Active Balance'), 0)
+
+Mobile.comment('FAQ')
+
+Mobile.tap(findTestObject('Ochin/android.widget.LinearLayout - FAQ Button'), 0)
+
+Mobile.tap(findTestObject('Ochin/android.view.View - FAQ Browser'), 0)
+
+Mobile.pressBack()
+
+Mobile.verifyElementExist(findTestObject('Ochin/android.widget.TextView - Remaining Active Balance'), 0)
+
+Mobile.tap(findTestObject('Ochin/android.widget.TextView - LOANS EMAIL US'), 0)
+
+Mobile.verifyElementExist(findTestObject('Ochin/android.widget.EditText - Aeon Customer Concern EMAIL'), 0)
+
+Mobile.pressBack()
+
+Mobile.pressBack()
+
+Mobile.comment("\n USER LOGIN: ${login_user} \n DASHBOARD: ${dashboard} \n MY ACCOUNT: ${my_account} \n LOAN FORM: ${loan_application}")
+

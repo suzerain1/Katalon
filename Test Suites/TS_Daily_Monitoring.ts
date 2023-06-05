@@ -12,10 +12,10 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>2a262333-353d-44e5-8c6a-2825f7e3b3c9</testSuiteGuid>
    <testCaseLink>
-      <guid>fa51a535-9f80-4eeb-a0b5-2256f07ae60a</guid>
+      <guid>0ec180ff-7817-4b9a-aae3-cc5500ff073d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Verify functional features</testCaseId>
+      <testCaseId>Test Cases/ehe</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
