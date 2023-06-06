@@ -134,5 +134,5 @@ Mobile.pressBack()
 
 Mobile.pressBack()
 
-Mobile.comment("\n USER LOGIN: ${login_user} \n DASHBOARD: ${dashboard} \n MY ACCOUNT: ${my_account} \n LOAN FORM: ${loan_application}")
+Mobile.comment("\n USER LOGIN: ${login_user} \n DASHBOARD: ${dashboard} \n MY ACCOUNT: ${my_account} \n LOAN FORM: ${loan_application} \n Use AEON Code: Working \n Email Us: Working \n Store Location: Working \n FAQ: Wokring \n Fingerprint Login: Wokring \n")
 
