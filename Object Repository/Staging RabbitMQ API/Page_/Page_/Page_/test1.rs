@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>test1</name>
+   <tag></tag>
+   <elementGuidId>ef922899-df5e-4814-8c83-a5a8fc3c87a4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::pre[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>pre</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>pre</value>
+      <webElementGuid>b3f6c308-2c9e-4f8d-ade5-71848bc2123e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>{&quot;name&quot;:&quot;acsp-mobile-events-queue&quot;,&quot;vhost&quot;:&quot;/&quot;,&quot;durable&quot;:true,&quot;auto_delete&quot;:false,&quot;exclusive&quot;:false,&quot;arguments&quot;:{&quot;x-ha-policy&quot;:&quot;all&quot;},&quot;node&quot;:&quot;rabbit@ACSPH-STAGING&quot;,&quot;consumer_details&quot;:[],&quot;deliveries&quot;:[],&quot;incoming&quot;:[],&quot;backing_queue_status&quot;:{&quot;mode&quot;:&quot;default&quot;,&quot;q1&quot;:0,&quot;q2&quot;:0,&quot;delta&quot;:[&quot;delta&quot;,&quot;undefined&quot;,0,&quot;undefined&quot;],&quot;q3&quot;:0,&quot;q4&quot;:510,&quot;len&quot;:510,&quot;target_ram_count&quot;:&quot;infinity&quot;,&quot;next_seq_id&quot;:121834,&quot;avg_ingress_rate&quot;:0.012632900033944091,&quot;avg_egress_rate&quot;:0.0,&quot;avg_ack_ingress_rate&quot;:0.0,&quot;avg_ack_egress_rate&quot;:0.0},&quot;disk_writes&quot;:23530,&quot;disk_reads&quot;:530,&quot;head_message_timestamp&quot;:null,&quot;message_bytes_persistent&quot;:51892,&quot;message_bytes_ram&quot;:51892,&quot;message_bytes_unacknowledged&quot;:0,&quot;message_bytes_ready&quot;:51892,&quot;message_bytes&quot;:51892,&quot;messages_persistent&quot;:510,&quot;messages_unacknowledged_ram&quot;:0,&quot;messages_ready_ram&quot;:510,&quot;messages_ram&quot;:510,&quot;garbage_collection&quot;:{&quot;max_heap_size&quot;:0,&quot;min_bin_vheap_size&quot;:46422,&quot;min_heap_size&quot;:233,&quot;fullsweep_after&quot;:65535,&quot;minor_gcs&quot;:1},&quot;reductions&quot;:787609395,&quot;state&quot;:&quot;running&quot;,&quot;recoverable_slaves&quot;:null,&quot;consumers&quot;:0,&quot;exclusive_consumer_tag&quot;:null,&quot;policy&quot;:null,&quot;consumer_utilisation&quot;:null,&quot;idle_since&quot;:&quot;2023-07-10 7:06:42&quot;,&quot;messages_unacknowledged_details&quot;:{&quot;rate&quot;:0.0},&quot;messages_unacknowledged&quot;:0,&quot;messages_ready_details&quot;:{&quot;rate&quot;:0.0},&quot;messages_ready&quot;:510,&quot;messages_details&quot;:{&quot;rate&quot;:0.0},&quot;messages&quot;:510,&quot;reductions_details&quot;:{&quot;rate&quot;:0.0},&quot;reductions&quot;:787609395,&quot;message_stats&quot;:{&quot;disk_reads&quot;:530,&quot;disk_reads_details&quot;:{&quot;rate&quot;:0.0},&quot;disk_writes&quot;:23530,&quot;disk_writes_details&quot;:{&quot;rate&quot;:0.0},&quot;deliver&quot;:12607,&quot;deliver_details&quot;:{&quot;rate&quot;:0.0},&quot;deliver_no_ack&quot;:0,&quot;deliver_no_ack_details&quot;:{&quot;rate&quot;:0.0},&quot;get&quot;:0,&quot;get_details&quot;:{&quot;rate&quot;:0.0},&quot;get_no_ack&quot;:0,&quot;get_no_ack_details&quot;:{&quot;rate&quot;:0.0},&quot;publish&quot;:23530,&quot;publish_details&quot;:{&quot;rate&quot;:0.0},&quot;publish_in&quot;:0,&quot;publish_in_details&quot;:{&quot;rate&quot;:0.0},&quot;publish_out&quot;:0,&quot;publish_out_details&quot;:{&quot;rate&quot;:0.0},&quot;ack&quot;:12587,&quot;ack_details&quot;:{&quot;rate&quot;:0.0},&quot;deliver_get&quot;:12607,&quot;deliver_get_details&quot;:{&quot;rate&quot;:0.0},&quot;confirm&quot;:0,&quot;confirm_details&quot;:{&quot;rate&quot;:0.0},&quot;return_unroutable&quot;:0,&quot;return_unroutable_details&quot;:{&quot;rate&quot;:0.0},&quot;redeliver&quot;:530,&quot;redeliver_details&quot;:{&quot;rate&quot;:0.0}},&quot;memory&quot;:602296}</value>
+      <webElementGuid>ccafcdba-a4fd-451e-bc1d-f317d8c41433</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/pre[1]</value>
+      <webElementGuid>2dc11d58-1c29-45d9-81e5-a61bb4859815</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::pre[1]</value>
+      <webElementGuid>2e04d440-7e82-4f8b-b936-492370ceae44</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::pre[1]</value>
+      <webElementGuid>0049ef89-f516-4e4e-8dd2-3482a9d3ef4a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='{&quot;name&quot;:&quot;acsp-mobile-events-queue&quot;,&quot;vhost&quot;:&quot;/&quot;,&quot;durable&quot;:true,&quot;auto_delete&quot;:false,&quot;exclusive&quot;:false,&quot;arguments&quot;:{&quot;x-ha-policy&quot;:&quot;all&quot;},&quot;node&quot;:&quot;rabbit@ACSPH-STAGING&quot;,&quot;consumer_details&quot;:[],&quot;deliveries&quot;:[],&quot;incoming&quot;:[],&quot;backing_queue_status&quot;:{&quot;mode&quot;:&quot;default&quot;,&quot;q1&quot;:0,&quot;q2&quot;:0,&quot;delta&quot;:[&quot;delta&quot;,&quot;undefined&quot;,0,&quot;undefined&quot;],&quot;q3&quot;:0,&quot;q4&quot;:510,&quot;len&quot;:510,&quot;target_ram_count&quot;:&quot;infinity&quot;,&quot;next_seq_id&quot;:121834,&quot;avg_ingress_rate&quot;:0.012632900033944091,&quot;avg_egress_rate&quot;:0.0,&quot;avg_ack_ingress_rate&quot;:0.0,&quot;avg_ack_egress_rate&quot;:0.0},&quot;disk_writes&quot;:23530,&quot;disk_reads&quot;:530,&quot;head_message_timestamp&quot;:null,&quot;message_bytes_persistent&quot;:51892,&quot;message_bytes_ram&quot;:51892,&quot;message_bytes_unacknowledged&quot;:0,&quot;message_bytes_ready&quot;:51892,&quot;message_bytes&quot;:51892,&quot;messages_persistent&quot;:510,&quot;messages_unacknowledged_ram&quot;:0,&quot;messages_ready_ram&quot;:510,&quot;messages_ram&quot;:510,&quot;garbage_collection&quot;:{&quot;max_heap_size&quot;:0,&quot;min_bin_vheap_size&quot;:46422,&quot;min_heap_size&quot;:233,&quot;fullsweep_after&quot;:65535,&quot;minor_gcs&quot;:1},&quot;reductions&quot;:787609395,&quot;state&quot;:&quot;running&quot;,&quot;recoverable_slaves&quot;:null,&quot;consumers&quot;:0,&quot;exclusive_consumer_tag&quot;:null,&quot;policy&quot;:null,&quot;consumer_utilisation&quot;:null,&quot;idle_since&quot;:&quot;2023-07-10 7:06:42&quot;,&quot;messages_unacknowledged_details&quot;:{&quot;rate&quot;:0.0},&quot;messages_unacknowledged&quot;:0,&quot;messages_ready_details&quot;:{&quot;rate&quot;:0.0},&quot;messages_ready&quot;:510,&quot;messages_details&quot;:{&quot;rate&quot;:0.0},&quot;messages&quot;:510,&quot;reductions_details&quot;:{&quot;rate&quot;:0.0},&quot;reductions&quot;:787609395,&quot;message_stats&quot;:{&quot;disk_reads&quot;:530,&quot;disk_reads_details&quot;:{&quot;rate&quot;:0.0},&quot;disk_writes&quot;:23530,&quot;disk_writes_details&quot;:{&quot;rate&quot;:0.0},&quot;deliver&quot;:12607,&quot;deliver_details&quot;:{&quot;rate&quot;:0.0},&quot;deliver_no_ack&quot;:0,&quot;deliver_no_ack_details&quot;:{&quot;rate&quot;:0.0},&quot;get&quot;:0,&quot;get_details&quot;:{&quot;rate&quot;:0.0},&quot;get_no_ack&quot;:0,&quot;get_no_ack_details&quot;:{&quot;rate&quot;:0.0},&quot;publish&quot;:23530,&quot;publish_details&quot;:{&quot;rate&quot;:0.0},&quot;publish_in&quot;:0,&quot;publish_in_details&quot;:{&quot;rate&quot;:0.0},&quot;publish_out&quot;:0,&quot;publish_out_details&quot;:{&quot;rate&quot;:0.0},&quot;ack&quot;:12587,&quot;ack_details&quot;:{&quot;rate&quot;:0.0},&quot;deliver_get&quot;:12607,&quot;deliver_get_details&quot;:{&quot;rate&quot;:0.0},&quot;confirm&quot;:0,&quot;confirm_details&quot;:{&quot;rate&quot;:0.0},&quot;return_unroutable&quot;:0,&quot;return_unroutable_details&quot;:{&quot;rate&quot;:0.0},&quot;redeliver&quot;:530,&quot;redeliver_details&quot;:{&quot;rate&quot;:0.0}},&quot;memory&quot;:602296}']/parent::*</value>
+      <webElementGuid>42a4e002-0ca5-4401-a5a8-5bcb8f3d29e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//pre</value>
+      <webElementGuid>4481426b-8a87-4f70-a658-f996442f94a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//pre[(text() = '{&quot;name&quot;:&quot;acsp-mobile-events-queue&quot;,&quot;vhost&quot;:&quot;/&quot;,&quot;durable&quot;:true,&quot;auto_delete&quot;:false,&quot;exclusive&quot;:false,&quot;arguments&quot;:{&quot;x-ha-policy&quot;:&quot;all&quot;},&quot;node&quot;:&quot;rabbit@ACSPH-STAGING&quot;,&quot;consumer_details&quot;:[],&quot;deliveries&quot;:[],&quot;incoming&quot;:[],&quot;backing_queue_status&quot;:{&quot;mode&quot;:&quot;default&quot;,&quot;q1&quot;:0,&quot;q2&quot;:0,&quot;delta&quot;:[&quot;delta&quot;,&quot;undefined&quot;,0,&quot;undefined&quot;],&quot;q3&quot;:0,&quot;q4&quot;:510,&quot;len&quot;:510,&quot;target_ram_count&quot;:&quot;infinity&quot;,&quot;next_seq_id&quot;:121834,&quot;avg_ingress_rate&quot;:0.012632900033944091,&quot;avg_egress_rate&quot;:0.0,&quot;avg_ack_ingress_rate&quot;:0.0,&quot;avg_ack_egress_rate&quot;:0.0},&quot;disk_writes&quot;:23530,&quot;disk_reads&quot;:530,&quot;head_message_timestamp&quot;:null,&quot;message_bytes_persistent&quot;:51892,&quot;message_bytes_ram&quot;:51892,&quot;message_bytes_unacknowledged&quot;:0,&quot;message_bytes_ready&quot;:51892,&quot;message_bytes&quot;:51892,&quot;messages_persistent&quot;:510,&quot;messages_unacknowledged_ram&quot;:0,&quot;messages_ready_ram&quot;:510,&quot;messages_ram&quot;:510,&quot;garbage_collection&quot;:{&quot;max_heap_size&quot;:0,&quot;min_bin_vheap_size&quot;:46422,&quot;min_heap_size&quot;:233,&quot;fullsweep_after&quot;:65535,&quot;minor_gcs&quot;:1},&quot;reductions&quot;:787609395,&quot;state&quot;:&quot;running&quot;,&quot;recoverable_slaves&quot;:null,&quot;consumers&quot;:0,&quot;exclusive_consumer_tag&quot;:null,&quot;policy&quot;:null,&quot;consumer_utilisation&quot;:null,&quot;idle_since&quot;:&quot;2023-07-10 7:06:42&quot;,&quot;messages_unacknowledged_details&quot;:{&quot;rate&quot;:0.0},&quot;messages_unacknowledged&quot;:0,&quot;messages_ready_details&quot;:{&quot;rate&quot;:0.0},&quot;messages_ready&quot;:510,&quot;messages_details&quot;:{&quot;rate&quot;:0.0},&quot;messages&quot;:510,&quot;reductions_details&quot;:{&quot;rate&quot;:0.0},&quot;reductions&quot;:787609395,&quot;message_stats&quot;:{&quot;disk_reads&quot;:530,&quot;disk_reads_details&quot;:{&quot;rate&quot;:0.0},&quot;disk_writes&quot;:23530,&quot;disk_writes_details&quot;:{&quot;rate&quot;:0.0},&quot;deliver&quot;:12607,&quot;deliver_details&quot;:{&quot;rate&quot;:0.0},&quot;deliver_no_ack&quot;:0,&quot;deliver_no_ack_details&quot;:{&quot;rate&quot;:0.0},&quot;get&quot;:0,&quot;get_details&quot;:{&quot;rate&quot;:0.0},&quot;get_no_ack&quot;:0,&quot;get_no_ack_details&quot;:{&quot;rate&quot;:0.0},&quot;publish&quot;:23530,&quot;publish_details&quot;:{&quot;rate&quot;:0.0},&quot;publish_in&quot;:0,&quot;publish_in_details&quot;:{&quot;rate&quot;:0.0},&quot;publish_out&quot;:0,&quot;publish_out_details&quot;:{&quot;rate&quot;:0.0},&quot;ack&quot;:12587,&quot;ack_details&quot;:{&quot;rate&quot;:0.0},&quot;deliver_get&quot;:12607,&quot;deliver_get_details&quot;:{&quot;rate&quot;:0.0},&quot;confirm&quot;:0,&quot;confirm_details&quot;:{&quot;rate&quot;:0.0},&quot;return_unroutable&quot;:0,&quot;return_unroutable_details&quot;:{&quot;rate&quot;:0.0},&quot;redeliver&quot;:530,&quot;redeliver_details&quot;:{&quot;rate&quot;:0.0}},&quot;memory&quot;:602296}' or . = '{&quot;name&quot;:&quot;acsp-mobile-events-queue&quot;,&quot;vhost&quot;:&quot;/&quot;,&quot;durable&quot;:true,&quot;auto_delete&quot;:false,&quot;exclusive&quot;:false,&quot;arguments&quot;:{&quot;x-ha-policy&quot;:&quot;all&quot;},&quot;node&quot;:&quot;rabbit@ACSPH-STAGING&quot;,&quot;consumer_details&quot;:[],&quot;deliveries&quot;:[],&quot;incoming&quot;:[],&quot;backing_queue_status&quot;:{&quot;mode&quot;:&quot;default&quot;,&quot;q1&quot;:0,&quot;q2&quot;:0,&quot;delta&quot;:[&quot;delta&quot;,&quot;undefined&quot;,0,&quot;undefined&quot;],&quot;q3&quot;:0,&quot;q4&quot;:510,&quot;len&quot;:510,&quot;target_ram_count&quot;:&quot;infinity&quot;,&quot;next_seq_id&quot;:121834,&quot;avg_ingress_rate&quot;:0.012632900033944091,&quot;avg_egress_rate&quot;:0.0,&quot;avg_ack_ingress_rate&quot;:0.0,&quot;avg_ack_egress_rate&quot;:0.0},&quot;disk_writes&quot;:23530,&quot;disk_reads&quot;:530,&quot;head_message_timestamp&quot;:null,&quot;message_bytes_persistent&quot;:51892,&quot;message_bytes_ram&quot;:51892,&quot;message_bytes_unacknowledged&quot;:0,&quot;message_bytes_ready&quot;:51892,&quot;message_bytes&quot;:51892,&quot;messages_persistent&quot;:510,&quot;messages_unacknowledged_ram&quot;:0,&quot;messages_ready_ram&quot;:510,&quot;messages_ram&quot;:510,&quot;garbage_collection&quot;:{&quot;max_heap_size&quot;:0,&quot;min_bin_vheap_size&quot;:46422,&quot;min_heap_size&quot;:233,&quot;fullsweep_after&quot;:65535,&quot;minor_gcs&quot;:1},&quot;reductions&quot;:787609395,&quot;state&quot;:&quot;running&quot;,&quot;recoverable_slaves&quot;:null,&quot;consumers&quot;:0,&quot;exclusive_consumer_tag&quot;:null,&quot;policy&quot;:null,&quot;consumer_utilisation&quot;:null,&quot;idle_since&quot;:&quot;2023-07-10 7:06:42&quot;,&quot;messages_unacknowledged_details&quot;:{&quot;rate&quot;:0.0},&quot;messages_unacknowledged&quot;:0,&quot;messages_ready_details&quot;:{&quot;rate&quot;:0.0},&quot;messages_ready&quot;:510,&quot;messages_details&quot;:{&quot;rate&quot;:0.0},&quot;messages&quot;:510,&quot;reductions_details&quot;:{&quot;rate&quot;:0.0},&quot;reductions&quot;:787609395,&quot;message_stats&quot;:{&quot;disk_reads&quot;:530,&quot;disk_reads_details&quot;:{&quot;rate&quot;:0.0},&quot;disk_writes&quot;:23530,&quot;disk_writes_details&quot;:{&quot;rate&quot;:0.0},&quot;deliver&quot;:12607,&quot;deliver_details&quot;:{&quot;rate&quot;:0.0},&quot;deliver_no_ack&quot;:0,&quot;deliver_no_ack_details&quot;:{&quot;rate&quot;:0.0},&quot;get&quot;:0,&quot;get_details&quot;:{&quot;rate&quot;:0.0},&quot;get_no_ack&quot;:0,&quot;get_no_ack_details&quot;:{&quot;rate&quot;:0.0},&quot;publish&quot;:23530,&quot;publish_details&quot;:{&quot;rate&quot;:0.0},&quot;publish_in&quot;:0,&quot;publish_in_details&quot;:{&quot;rate&quot;:0.0},&quot;publish_out&quot;:0,&quot;publish_out_details&quot;:{&quot;rate&quot;:0.0},&quot;ack&quot;:12587,&quot;ack_details&quot;:{&quot;rate&quot;:0.0},&quot;deliver_get&quot;:12607,&quot;deliver_get_details&quot;:{&quot;rate&quot;:0.0},&quot;confirm&quot;:0,&quot;confirm_details&quot;:{&quot;rate&quot;:0.0},&quot;return_unroutable&quot;:0,&quot;return_unroutable_details&quot;:{&quot;rate&quot;:0.0},&quot;redeliver&quot;:530,&quot;redeliver_details&quot;:{&quot;rate&quot;:0.0}},&quot;memory&quot;:602296}')]</value>
+      <webElementGuid>fb16581c-864c-4b9a-8fc6-953f2258a3f6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
