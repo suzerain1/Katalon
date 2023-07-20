@@ -19,17 +19,18 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 //For Production
 WebUI.navigateToUrl('http://192.168.50.47:15672/#/queues/%2F/acsp-mobile-events-queue')
-
 WebUI.setText(findTestObject('Web for RabbitMQ/Page_RabbitMQ Management/input_Username_username'), 'acsph_queue')
-
 WebUI.setText(findTestObject('Web for RabbitMQ/Page_RabbitMQ Management/input_Password_password'), 'ITMISISD)(*&')
 
 //For Staging
 //WebUI.navigateToUrl('http://192.168.50.48:15672/#/queues/%2F/acsp-mobile-events-queue')
 //WebUI.setText(findTestObject('Web for RabbitMQ/Page_RabbitMQ Management/input_Username_username'), 'acsph')
 //WebUI.setText(findTestObject('Web for RabbitMQ/Page_RabbitMQ Management/input_Password_password'), 'password123')
+
 WebUI.click(findTestObject('Web for RabbitMQ/Page_RabbitMQ Management/input_submit'))
 
 WebUI.delay(1)
@@ -106,6 +107,6 @@ if (WebUI.getText(findTestObject('Page_RabbitMQ Management/consumers_count')) !=
 	queue_pushnotif_request_consumer = WebUI.getText(findTestObject('Page_RabbitMQ Management/consumers_count'))
 }
 
-WebUI.comment("\n\n\nacsp_mobile_events_queue:\n  Ready:${acsp_mobile_events_queue} \n  Consumers:${acsp_mobile_events_queue_consumer} \nqueue_send_sms: \n  Ready: ${queue_send_sms} \n  Consumers: ${queue_send_sms_consumer} \nqueue_send_otp: \n  Ready: ${queue_send_otp} \n  Consumers: ${queue_send_otp_consumer} \nqueue_pushnotif_request: \n  Ready: ${queue_pushnotif_request} \n  Consumers: ${queue_pushnotif_request_consumer}\n\n")
+WebUI.comment("\n\nacsp_mobile_events_queue:\n  Ready: ${acsp_mobile_events_queue} \n  Consumers: ${acsp_mobile_events_queue_consumer} \nqueue_send_sms: \n  Ready: ${queue_send_sms} \n  Consumers: ${queue_send_sms_consumer} \nqueue_send_otp: \n  Ready: ${queue_send_otp} \n  Consumers: ${queue_send_otp_consumer} \nqueue_pushnotif_request: \n  Ready: ${queue_pushnotif_request} \n  Consumers: ${queue_pushnotif_request_consumer}\n\n")
 WebUI.closeBrowser()
 
